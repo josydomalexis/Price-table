@@ -60,7 +60,6 @@ function App() {
 }
 
 function PriceCard(props) {
-  console.log(props.card.type);
   return (
     <div className="priceCard">
       <span className="planType">{props.card.type}</span>
